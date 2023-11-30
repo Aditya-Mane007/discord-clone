@@ -7,7 +7,6 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { Video, VideoOff } from "lucide-react"
 
 import { ActionTooltip } from "../navigation/action-tooltip"
-import { Icon } from "@radix-ui/react-select"
 
 export const ChatVideoButton = () => {
   const router = useRouter()
