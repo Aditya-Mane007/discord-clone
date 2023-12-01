@@ -1,12 +1,6 @@
 "use client"
 import { cn } from "@/lib/utils"
-import {
-  $Enums,
-  Channel,
-  ChannelType,
-  MemberRole,
-  Server
-} from "@prisma/client"
+import { Channel, ChannelType, MemberRole, Server } from "@prisma/client"
 import { Edit, Hash, Lock, Mic, Trash, Video } from "lucide-react"
 import { useParams, useRouter } from "next/navigation"
 import React from "react"
