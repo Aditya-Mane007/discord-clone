@@ -3,7 +3,7 @@ import { useInfiniteQuery } from "@tanstack/react-query"
 import qs from "query-string"
 
 interface chatQueryProps {
-  queryKey: string[]
+  queryKey: string
   apiUrl: string
   paramKey: "channelId" | "conversationId"
   paramValue: string
